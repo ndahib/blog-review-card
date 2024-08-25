@@ -1,0 +1,106 @@
+*
+{
+    box-sizing: border-box;
+    font-family: "Figtree";
+    font-weight: 500;
+    margin-left: 2px;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card
+{
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 7px 7px black;
+}
+
+#illustartion
+{
+    border-radius: 15px;
+}
+
+#tag, 
+h1,
+#author-name
+{
+    font-weight: 800;
+}
+
+p{
+    color:#6B6B6B;
+    font-size: 16px;
+    line-height: 150%;
+}
+#tag
+{
+    padding: 5px 20px;
+    display: block;
+    text-align:start;
+    width:fit-content;
+    background-color: #F4D04E;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#tag:hover {
+    color: #fff;
+    border: 1px solid black;
+    background-color: #000000;
+}
+  
+h1:hover
+{
+    color:#F4D04E;
+}
+
+.author
+{
+    display: flex;
+    flex-direction: row;
+    #author-name
+    {
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .card{
+        width: 384px;
+        height: 544px;
+    }
+    
+}
+
+footer
+{
+    background-color: white;
+    position:absolute;
+    bottom: 10px;
+    box-shadow: 3px 3px black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: linear-gradient(white ,#F4D04E);
+}
+
+a
+{
+    color: #0000CD;
+    text-decoration: none;
+}
